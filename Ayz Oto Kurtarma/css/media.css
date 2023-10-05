@@ -1,0 +1,238 @@
+/* RESPONSIVE XXLARGE */
+@media screen and (min-width: 1400px) {
+  .container-lg {
+    max-width: 1400px !important ;
+  }
+  .content1 h1 {
+    font-size: 2.4em !important;
+    font-weight: 800;
+    text-align: center !important;
+  }
+  .content1 p {
+    font-size: 1.3em;
+    text-align: justify;
+    margin: 15px 10px 30px 10px !important;
+  }
+  .content1 span {
+    font-weight: 700;
+  }
+  .content1 h2 {
+    font-size: 2.2em !important;
+    font-weight: 700;
+    text-align: center;
+  }
+  .content1 ul {
+    margin: 15px 10px !important;
+  }
+  .content1 li {
+    text-align: justify;
+    font-size: 1.3em !important;
+  }
+}
+
+/* RESPONSIVE XLARGE */
+@media screen and (max-width: 1200px) {
+  header .container-lg {
+    max-width: 1100px !important ;
+  }
+  /* MAIN START */
+  main .container-lg {
+    padding: 0 !important;
+  }
+  .carousel {
+    /* width: 40% !important;
+    height: 500px !important; */
+  }
+  .carousel img {
+    /* height: 500px !important; */
+  }
+  .content1 h1 {
+    font-size: 2.1em !important;
+  }
+  .content1 p {
+    font-size: 1.2em !important;
+  }
+  .content1 h2 {
+    font-size: 2em !important;
+  }
+  .content1 ul {
+    margin: 20px 10px;
+  }
+  .content1 li {
+    font-size: 1.2em;
+  }
+
+  /* MAIN END */
+  /* FOOTER START */
+  footer .container-lg {
+    max-width: 1100px !important ;
+  }
+  /* FOOTER END */
+}
+
+/* RESPONSIVE LARGE */
+@media screen and (max-width: 992px) {
+  /* MAIN START */
+  .content1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 0 0 !important;
+  }
+  .carousel{
+    width: inherit !important;
+    height: inherit !important;
+  }  
+  .content1 .explanation {
+    width: 90%;
+    margin-top: 40px;
+  }
+  .content1 h1 {
+    font-size: 2.3em !important;
+    font-weight: 800;
+    text-align: center !important;
+  }
+  .content1 p {
+    font-size: 1.4em;
+    text-align: justify;
+    margin: 20px 10px;
+  }
+  .content1 span {
+    font-weight: 700;
+  }
+  .content1 h2 {
+    font-size: 2em !important;
+    font-weight: 700;
+    text-align: center;
+  }
+  .content2 {
+    width: 90%;
+    margin: auto;
+    padding-top: 55px !important;
+  }
+  .content2 .col-lg-3{
+    width: 47%;
+    margin: 10px 8px 0 8px;
+  }  
+  /* content3 start */
+  .content3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content3 .text {
+    text-align: center;
+    padding: 0 20px;
+  }
+  .content3 h2 {
+    font-size: 2em !important;
+  }
+  .content3 p {
+    font-size: 1.15em !important;
+  }
+  .content3 iframe {
+    width: 80%;
+  }
+  /* content3 end */
+  /* MAIN END */
+}
+
+/* RESPONSIVE MEDIUM */
+@media screen and (max-width: 768px) {
+  /* HEADER START */
+  .logo {
+    margin-left: 15px !important;
+  }
+  header .logo h4 {
+    font-size: 1.5em;
+  }
+  header .logo h5 {
+    font-size: 1.2em;
+  }
+  header .nav-list {
+    margin-right: 12px;
+  }
+  header .nav-link {
+    margin: 8px;
+  }
+  /* HEADER END */
+
+  /* MAIN START */
+  .content2 .col-lg-3{
+    width: 100%;
+    margin: 10px 10px 0 10px;
+  }  
+  /* content3 start */
+  .content3 iframe {
+    height: 300px;
+  }
+  /* content3 end */
+  /* MAIN END */
+
+  /* FOOTER START */
+  /* FOOTER END */
+}
+
+/* RESPONSIVE SMALL */
+@media screen and (max-width: 576px) {
+  /* HEADER START */
+  #hamburger {
+    display: block;
+  }
+  .nav-list {
+    display: none !important;
+  }
+  /* HEADER END */
+  /* MAIN START */
+  .content1 {
+    padding-top: 90px !important;
+  }
+  .carousel img {
+    height: 380px !important;
+  }  
+  .content1 h1 {
+    font-size: 2em !important;
+  }
+  .content1 p {
+    font-size: 1.1em !important;
+  }
+  .content1 span {
+    font-weight: 700;
+  }
+  .content1 h2 {
+    font-size: 1.8em !important;
+  }
+  .content1 li {
+    font-size: 1.1em !important;
+  }
+  .content2 {
+    padding-top: 65px !important;
+  }
+  .content2 h2 {
+    font-size: 2em !important;
+  }
+  .content2 li {
+    font-size: 1.1em !important;
+  }
+  /* content3 start */
+  .content3 iframe {
+    height: 200px;
+  }
+  /* content3 end */
+  /* MAIN END */
+
+  /* FOOTER START */
+  footer {
+    height: 100px !important;
+  }
+  .footer-con {
+    height: 100%;
+  }
+  .pages {
+    display: block;
+    padding: 15px 0;
+    margin-right: 0;
+  }
+  .pages a {
+    font-size: 1em;
+  }
+  /* FOOTER END */
+}
